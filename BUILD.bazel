@@ -1,0 +1,7 @@
+cc_binary(
+    name = "rabbit",
+    srcs = [
+        "rabbit.cc",
+    ],
+    visibility = ["//visibility:public"],
+)
