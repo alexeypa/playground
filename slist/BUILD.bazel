@@ -1,0 +1,11 @@
+cc_test(
+    name = "slist_test",
+    size = "small",
+    srcs = [
+        "slist.h",
+        "slist_test.cc",
+    ],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+    ],
+)
